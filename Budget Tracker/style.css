@@ -38,6 +38,7 @@ body {
     width: 25%;
     background-color: var(--primary-color);
     color: #fff;
+    overflow-y: auto;
 }
 
 .profile-container{
