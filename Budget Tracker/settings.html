@@ -1,0 +1,73 @@
+<section id="settings" class="hidden">
+    <header>
+        <h1>Settings</h1>
+    </header>
+    <section class="content">
+        <!-- User Profile -->
+        <div class="settings-section">
+            <h3>User Profile</h3>
+            <form id="profile-form">
+                <label for="user-name">Name:</label>
+                <input type="text" id="user-name" placeholder="Enter your name">
+
+                <label for="user-email">Email:</label>
+                <input type="email" id="user-email" placeholder="Enter your email">
+
+                <button type="button" class="btn">Update Profile</button>
+            </form>
+        </div>
+
+        <!-- App Preferences -->
+        <div class="settings-section">
+            <h3>App Preferences</h3>
+            <label for="theme-selection">Theme:</label>
+            <select id="theme-selection">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="system">System Default</option>
+            </select>
+
+            <label for="currency-selection">Currency:</label>
+            <select id="currency-selection">
+                <option value="usd">USD ($)</option>
+                <option value="php">PHP (₱)</option>
+                <option value="eur">EUR (€)</option>
+            </select>
+
+            <label for="language-selection">Language:</label>
+            <select id="language-selection">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+            </select>
+        </div>
+
+        <!-- Notifications -->
+        <div class="settings-section">
+            <h3>Notifications</h3>
+            <label>
+                <input type="checkbox" id="email-notifications"> Email Notifications
+            </label>
+            <label>
+                <input type="checkbox" id="push-notifications"> Push Notifications
+            </label>
+        </div>
+
+        <!-- Data Management -->
+        <div class="settings-section">
+            <h3>Data Management</h3>
+            <button type="button" class="btn" id="export-data">Export Data</button>
+            <button type="button" class="btn danger" id="clear-data">Clear All Data</button>
+        </div>
+
+        <!-- Account Management -->
+        <div class="settings-section">
+            <h3>Account Management</h3>
+            <button type="button" class="btn danger" id="delete-account">Delete Account</button>
+        </div>
+        <div class="settings-section">
+            <h3>Account Management</h3>
+            <button type="button" class="btn" id="logout-button">Logout</button>
+        </div>
+    </section>
+</section>
