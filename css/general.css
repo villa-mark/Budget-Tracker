@@ -1,0 +1,24 @@
+/* Root Variables */
+:root {
+  --primary-color: #1e88e5;    /* Main blue for highlights */
+  --primary-dark: #1565c0;    /* Darker shade of blue */
+  --background-color: #f9f9f9; /* Light gray for background */
+  --card-background: #fff;    /* White for cards and content areas */
+  --border-color: #ddd;       /* Light gray for borders */
+  --text-color: #333;         /* Default text color */
+  --text-secondary: #666;     /* Secondary text color */
+  --highlight-color: #e0f7fa; /* Light cyan for chart placeholders */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Shadow for cards */
+}
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: var(--text-color);
+}
